@@ -15,6 +15,7 @@
 		A449315C25A8A4A200CA6C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A449315B25A8A4A200CA6C01 /* Assets.xcassets */; };
 		A449315F25A8A4A200CA6C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A449315D25A8A4A200CA6C01 /* LaunchScreen.storyboard */; };
 		A449316825A8ABE100CA6C01 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449316725A8ABE100CA6C01 /* Type1.swift */; };
+		A449316B25A8BD1B00CA6C01 /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449316A25A8BD1B00CA6C01 /* NewsDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A449315E25A8A4A200CA6C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A449316025A8A4A200CA6C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A449316725A8ABE100CA6C01 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
+		A449316A25A8BD1B00CA6C01 /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A449315125A8A4A100CA6C01 /* SceneDelegate.swift */,
 				A449315325A8A4A100CA6C01 /* ViewController.swift */,
 				A449315525A8A4A100CA6C01 /* Main.storyboard */,
+				A449316A25A8BD1B00CA6C01 /* NewsDetailController.swift */,
 				A449315B25A8A4A200CA6C01 /* Assets.xcassets */,
 				A449315D25A8A4A200CA6C01 /* LaunchScreen.storyboard */,
 				A449316025A8A4A200CA6C01 /* Info.plist */,
@@ -146,6 +149,7 @@
 				A449315425A8A4A100CA6C01 /* ViewController.swift in Sources */,
 				A449315025A8A4A100CA6C01 /* AppDelegate.swift in Sources */,
 				A449315A25A8A4A100CA6C01 /* News.xcdatamodeld in Sources */,
+				A449316B25A8BD1B00CA6C01 /* NewsDetailController.swift in Sources */,
 				A449315225A8A4A100CA6C01 /* SceneDelegate.swift in Sources */,
 				A449316825A8ABE100CA6C01 /* Type1.swift in Sources */,
 			);
