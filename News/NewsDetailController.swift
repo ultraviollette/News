@@ -26,7 +26,7 @@ class NewsDetailController : UIViewController {
             //
             // Data
             if let data = try? Data(contentsOf: URL(string: img)!) {
-                //Main Thread
+                // Main Thread
                 DispatchQueue.main.async {
                     self.ImageMain.image = UIImage(data: data)
                 }

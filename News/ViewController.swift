@@ -80,7 +80,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // Event
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("CLICK !!! \(indexPath.row)")
+        print("\(indexPath.row)")
         
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "NewsDetailController") as! NewsDetailController
@@ -98,8 +98,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 }
             }
         }
-        
-        //
         showDetailViewController(controller, sender: nil)
     }
     
@@ -123,14 +121,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                             }
                         }
                     }
-                    
-                    
                 }
             }
         }
-        
-        
-        //
     }
     
     override func viewDidLoad() {
